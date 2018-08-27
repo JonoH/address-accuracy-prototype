@@ -1,0 +1,70 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+html,
+body {
+  margin: 20px;
+  padding: 0;
+  display: -webkit-flex; /* Safari */
+  -webkit-flex-direction: column; /* Safari 6.1+ */
+  display: flex;
+  flex-direction: column;
+}
+
+#locationField,
+#controls,
+#currentLocationButtonField {
+    position: relative;
+    width: 90%;
+    /* margin: auto; */
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+#autocomplete, #current_location {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 90%;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+    width: 80px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    color: #303030;
+}
+
+#address {
+    width: 100%;
+    margin: auto;
+    padding-right: 2px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+#address td {
+    font-size: 10pt;
+}
+
+.field {
+    width: 100%;
+}
+
+#locationField {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#currentLocationButtonField {
+    height: 20px;
+    margin-top: 10px;
+}
