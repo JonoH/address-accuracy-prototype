@@ -185,7 +185,7 @@
     }
   </script>
   <script type="text/javascript">
-    var url = "https://maps.googleapis.com/maps/api/js?key=" + getenv('GOOGLE_API_KEY') + "&libraries=places&callback=initAutocomplete";
+    var url = "https://maps.googleapis.com/maps/api/js?key=$url&libraries=places&callback=initAutocomplete";
     document.write('<' + 'script src="' + url + '" async defer></' + 'script>');
 </script>
 </body>
